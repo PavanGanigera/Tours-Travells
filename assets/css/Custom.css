@@ -1,0 +1,327 @@
+.header .logo img {
+    max-height: 80px;
+    margin-right: 8px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.hero h5 {
+    color: #DF6951;
+    text-transform: uppercase !important;
+    margin: 5px 0 30px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hero .fst-italic {
+    color: color-mix(in srgb, var(--default-color), transparent 30%);
+    margin: 30px 0 5px 0;
+    font-size: 16px;
+    font-weight: 400;
+    width: 477px;
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bg-image .img-bg {
+    height: 650px;
+}
+
+.right {
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+    top: 0;
+    right: 0px;
+}
+
+.right img {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 450px;
+    /* z-index: 9999 !important; */
+}
+
+.Packages {
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.tours {
+    position: relative;
+}
+
+.tags {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.tags-text {
+    font-size: 10px;
+    margin-bottom: 0px;
+    padding: 8px 15px;
+}
+
+.featurs-header {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.features .nav-link {
+    color: var(--heading-color);
+    border: 0;
+    padding: 20px 40px;
+    transition: 0.5s;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.features .nav-link:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+a.nav-link {
+    width: max-content;
+}
+
+.form-contianer {
+    margin: 20px 0px;
+}
+
+.label-container {
+    width: 100%;
+    gap: 20px;
+}
+
+.form-row,
+.radi-cont {
+    width: 100%;
+    padding: 10px;
+}
+
+.pavan {
+    padding: 20px 10px;
+}
+
+.form-row input,
+textarea {
+    width: 100%;
+
+}
+
+.form-border {
+    border: 1px solid rgba(0, 0, 0, 0.514);
+    border-radius: 20px;
+}
+
+.button-cont {
+    text-align: center;
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* ================================================== */
+
+.form-row label {
+    flex: 1;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.form-row input,
+.form-row textarea {
+    flex: 2;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.enquire-now-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.video iframe {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.manoj {
+    background-image: url('assets\images\Leaves Pattern.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card img {
+    align-items: center !important;
+}
+
+.owl-carousel .owl-item img {
+    display: block !important;
+    width: 25% !important;
+}
+
+.pricing .pricing-item {
+    background-color: color-mix(in srgb, var(--accent-color), transparent 96%);
+    padding: 20px 40px;
+    height: 100%;
+    border-radius: 15px;
+}
+
+/* ======================Footer================ */
+.footer .footer-about .logo img {
+    max-height: 100px;
+    margin-right: 6px;
+}
+
+a {
+    color: orangered;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* ================ About Us==================================*/
+.about-text {
+    color: color-mix(in srgb, var(--default-color), transparent 30%);
+    margin: 30px 0 5px 0;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#about-sec {
+    background-color: #21487729 !important;
+}
+
+.package-sec {
+    padding: 100px 0 40px 0;
+}
+
+.package-text {
+    margin-top: 110px;
+}
+
+.pak-para {
+    margin-top: 30px;
+}
+
+.top-packages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-destination {
+    padding: 0px;
+}
+
+.mb-3 {
+    margin-bottom: 30px;
+}
+
+.container.form-border.\.bg-info {
+    background-color: aliceblue;
+}
+
+section#about\ packages {
+    background-color: rgba(27, 124, 242, 0.4);
+}
+
+.width {
+    width: 20%;
+}
+
+.contact-sec {
+    padding: 140px 0 40px 0;
+}
+.service-top {
+    padding: 140px 0 40px 0;
+    background-color: rgba(27, 124, 242, 0.16);
+}
+.counter {
+    background-color: rgba(27, 124, 242, 0.16);
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+    gap: 10px;
+}
+.bg-gray {
+    background-color: rgba(217, 217, 217, 0.16);
+}
+.trans-bg {
+    /* position: relative; */
+}
+.service-show {
+    position: absolute;
+    /* bottom: 0; */
+    /* top: 0; */
+    right: 30px;
+}
+.service-show img {
+    width: 85%;
+    z-index: 999;
+} 
+
+/* ==================================== Contact US============== */
+
+
+
+.mt--4 {
+    margin-top: 50px;
+}
+
+section#features-details\ cus {
+    background-color: #111;
+}
+
+
+
+section#hero\ cus {
+    background-color: aliceblue;
+}
+section#featured-services\ cus {
+    background-image: url('assets/images/');
+    background: aliceblue;
+}
+section#hero\ about-sec {
+    background: rgba(27, 124, 242, 0.16);
+}
+.hero p {
+    color: color-mix(in srgb, var(--default-color), transparent 30%);
+    margin: 25px 0 30px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+section#featured-services\ cus-same {
+    background: rgba(27, 124, 242, 0.16);
+}
+section#about\ cus {
+    background: rgba(27, 124, 242, 0.16);
+}
